@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Hahmlet', serif;
+    line-height: 1.5;
+    text-align: center;
+    color: aliceblue;
+    background-color: cadetblue;
+    
+}
+
+h1{
+    padding-top: 200px;
+}
+p{
+    padding: 1.6rem 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header{
+    height: 46rem;
+    background-image: url(Images/image1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+
+.btn{
+    display: inline-block;
+    background: cadetblue;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: .5px;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    background: aliceblue;
+    color: cadetblue;
+}
+
+#section-a{
+    background: aliceblue;
+    color: cadetblue;
+    padding: 3.2rem 0;
+    font-size: 1.2rem;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+#section-b{
+    padding: 2rem;
+}
+
+#section-b ul{
+    list-style: none;
+}
+
+#section-b li{
+    margin-bottom: 1.5rem;
+    color:cadetblue;
+    background: white;
+}
+
+#section-c{
+    background: aliceblue;
+    color: cadetblue;
+    padding: 5rem;
+}
+
+#section-d .box{
+    padding: 5rem;
+}
+
+#section-d .box:first-child{
+    background:darkkhaki;
+    color: black;
+}
+
+footer{
+    padding: 4rem;
+    background: black;
+}
+
+footer a{
+    color:darkkhaki;
+    text-decoration: none;
+}
+
+@media screen and (min-width:1200px) {
+    #section-b li{
+    width: 28%;
+    display: inline-block;
+    }
+
+    .box{
+        width: 50%;
+        float: left;
+    }
+}
